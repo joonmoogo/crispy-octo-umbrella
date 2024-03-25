@@ -1,19 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
-import ElevateAppBar from './components/Appbar';
-import Footer from './components/Footer';
-import HomeMenu from './components/HomeMenu';
-import HomeSearch from './components/HomeSearch';
+import Homepage from './pages/Homepage';
+
+
+import {BrowserRouter,Routes,Route} from 'react-router-dom'
+import Search from './pages/Search';
 
 function App() {
+
   return (
-    <div className="App">
-      <ElevateAppBar/>
-      <HomeSearch/>
-      <HomeMenu/>
-      <Footer/>
-    </div>
-    
+    <BrowserRouter>
+    <Routes>
+      <Route path='/' element={<Homepage/>}/>
+      <Route path='/search' element={<Search/>}/>
+    </Routes>
+    </BrowserRouter>
   );
 }
 
