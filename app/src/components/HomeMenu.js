@@ -15,7 +15,10 @@ const ColorButton = styled(Button)(({ theme }) => ({
     fontSize: '1.5rem',
 }));
 
-export default function AnotherComponent() {
+export default function HomeMenu() {
+
+  
+
   return (
     <Box sx={{
       display: 'flex',

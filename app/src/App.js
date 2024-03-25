@@ -1,18 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
 import ElevateAppBar from './components/Appbar';
-import MobileFriendlyPage from './components/bso1';
-import AnotherComponent from './components/bso2';
 import Footer from './components/Footer';
+import HomeMenu from './components/HomeMenu';
+import HomeSearch from './components/HomeSearch';
 
 function App() {
   return (
     <div className="App">
       <ElevateAppBar/>
-      <MobileFriendlyPage/>
-      <AnotherComponent/>
+      <HomeSearch/>
+      <HomeMenu/>
       <Footer/>
     </div>
+    
   );
 }
 
