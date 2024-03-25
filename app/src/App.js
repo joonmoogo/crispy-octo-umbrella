@@ -1,10 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
-import { AppBar } from '@mui/material';
-import Footer from './components/Footer';
 import ElevateAppBar from './components/Appbar';
 import MobileFriendlyPage from './components/bso1';
 import AnotherComponent from './components/bso2';
+import Footer from './components/Footer';
 
 function App() {
   return (
