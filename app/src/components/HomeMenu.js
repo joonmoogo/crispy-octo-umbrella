@@ -17,8 +17,6 @@ const ColorButton = styled(Button)(({ theme }) => ({
 
 export default function HomeMenu() {
 
-  
-
   return (
     <Box sx={{
       display: 'flex',

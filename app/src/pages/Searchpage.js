@@ -1,7 +1,7 @@
 import ElevateAppBar from "../components/Appbar";
 import Footer from "../components/Footer";
 
-export default function Search() {
+export default function Searchpage() {
 
     return (
         <>
